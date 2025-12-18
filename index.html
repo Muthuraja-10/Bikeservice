@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Mechanic Shop</title>
+</head>
+<style>
+    h1,p{
+        text-align: center;
+    }
+
+    table,tr,td,th{
+        border: 1px solid black;
+    }
+
+    th,td{
+        padding: 10px;
+        width: 200px;
+        text-align: center;
+    }
+    body{
+        background-color:wheat;
+    }
+    
+    nav{
+        
+        scroll-behavior: smooth;
+        
+    }
+    img{
+        width:500px;
+        height:450px;
+    }
+    nav{
+        scroll-behavior:smooth;
+    }
+    #rev{
+        display: flex;
+        gap: 45px;
+    }
+    .review{
+        border: 2px solid black;
+        width: 170px;
+        margin: 1px;
+        padding: 5%;
+    }
+    .center{
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+    <div>
+    <h1>Bike Service Shop</h1>
+     <marquee direction="right" style="color:green; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Book Services - Keep your Bike Run Smoothly</marquee>
+    <p><b><i><q>Trusted Bike Service & Repair Experts</q></i></b></p>
+    <hr>
+    <nav>
+            <b><a href="#about">About Us</a></b>
+            <b><a href="book.html" target="_blank">Book Service</a></b>
+            <b><a href="#Contact">Contact Us</a></b>  
+            <b><a href="#Reviews">Reviews</a></b> 
+    </nav>
+    <hr>
+    </div>
+    <div class="center">
+            <h2><a href="book.html" target="_blank">Book</a> your bike service with us</h2>
+            <img src="/images/shop.png" alt="agenda" width="300px;">
+    </div>
+    <div>
+        <h2>Services:</h2>
+        <blockquote>
+            <ol>
+                <li></li><a href="#oilservice" >Oil Change</a></li>
+                <li></li><a href="#brake" >Brake Service</a></li>
+                <li></li><a href="#engine" >Engine Service</a></li>
+                <li></li><a href="#full" >Full Service</a></li>
+            </ol>
+        </blockquote>
+    </div>
+
+
+    <div>
+        <h2>Price List:</h2>
+        <table>
+            <tr>
+                <th>Service Name</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Oil Change</td>
+                 <td>&#8377;300</td>
+            </tr>
+            <tr>
+                <td>Brake Service</td>
+                <td>&#8377;170</td>
+            </tr>
+            <tr>
+                <td>Water Wash</td>
+                <td>&#8377;700</td>
+           </tr>
+            <tr>
+                <td>Full Service</td>
+                <td>&#8377;2000</td>
+            </tr>
+        </table><br><br><br>
+    </div>
+    <div class="image">
+        <h3 style="text-align: center;">Services you can acces here</h3>
+        <center>
+        <img src="./images/oilservice.jpg" alt="oilservice" id="oilservice">
+         <b><p>Book Oil Service <a href="book.html" target="_blank">Click here</a></p></b><br><br><br>
+        <img src="./images/brakeservices.png" alt="brakeservice" id="brake">
+        <b><p>Book Brake Service <a href="book.html" target="_blank">Click here</a></p></b><br><br><br>
+        <img src="./images/engine.jpg" alt="Engineservice" id="engine">
+        <b><p>Book Engine Service <a href="book.html" target="_blank">Click here</a></p></b><br><br><br>
+        <img src="./images/full.png" alt="FullService" id="full">
+        <b><p>Book Bike Full Service <a href="book.html" target="_blank">Click here</a></p></b>
+    </center>
+    </div>
+    </header>
+
+<!--Choosing-->
+
+    <footer>
+        <div>
+        <h3>Why Choose Us:</h3>
+        <p>We provide trusted and professional bike servicing with skilled technicians and modern <br>
+             Genuine spare parts and quality service ensure long-lasting bike
+             We offer transparent pricing with no hidden charges. On-time delivery and customer satisfaction are our top priorities.</p>
+
+            <marquee behavior="scroll-behavior:smooth" direction="up" scrollamount="2">
+            <center>
+            <li>Experienced Mechanics</li><br>
+            <li>Affordable Pricing</li><br>
+            <li>Quick Service</li><br>
+            <li>Genuine Spare Parts</li></marquee></center>
+       
+    </div>
+     <div>
+        <h2 id="about">About Us</h2>
+        <p>Bike Service Center provides professional bike repair and maintenance services with a focus on quality and reliability. <br>
+            We use modern tools and genuine spare parts to ensure the best performance of your bike. Our skilled technicians handle all types of servicing and repairs with care.
+            Customer satisfaction and timely service are our top priorities.</p>
+    </div>
+
+<!--review section-->
+
+    <section id="Reviews">
+        <h2>Customer Reviews</h2>
+    <div id="rev">
+    <div class="review">
+        <p>I have been using their bike service for quite some time now.
+            The service quality is excellent and my bike performance has
+            improved a lot
+        </p>
+        <p><strong>Akash</strong></p> 
+    </div><br>
+    <div class="review">
+        <p>I have been using their bike service for some time now.
+            The service quality is good and I am satisfied
+        </p>
+    <p><strong>Vasanth</strong></p>
+    </div><br>
+    <div class="review">
+         <p> Quick service and genuine spare parts.
+             My bike runs smoothly after servicing.
+         </p>
+    <p><strong>Thamizh</strong></p>
+    </div>
+    <div class="review">
+        <p> Very professional service with genuine spare parts.
+             Delivery was on time and pricing was transparent.
+        </p>
+         <p><strong>Dhivagar</strong></p>   
+    </div>
+    </div><br>
+    </section>
+   
+        <hr>
+    <div>
+        <h2 style="text-align: center;" id="Contact">Contact Us</h2>
+        <p>📍 Chennai | 📞 9876543210 | 📧 bikeservice@gmail.com</p>
+        <p>&copy;bikeservice 2025</p>
+    </div>
+    </footer>
+</body>
+</html>

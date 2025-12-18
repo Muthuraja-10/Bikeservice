@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Service</title>
+    <style>
+      body{
+        background-color: blanchedalmond;
+      }
+    </style>
+</head>
+<body>
+   <div>
+    <a href="index.html">Home</a>
+        <h2 id="Book">Book Service</h2>
+        <form>
+            <label for="username">Name:</label>
+            <input type="text"><br><br>
+            <label for="bike Model">Bike Model:</label>
+            <input type="text" list="bike">
+            <datalist id="bike">
+                <option value="Yamaha">
+                <option value="Pulsar">
+                <option value="Royal Enfield">
+                <option value="Scooty">
+              </datalist>
+            <br><br>
+            <label for="Service">Service:</label>
+            <input type="text" list="select">
+              <datalist id="select">
+                <option value="engine Service">
+                <option value="break Repair">
+                <option value="Water Wash">
+                <option value="Full Service">
+              </datalist><br><br>
+            <label for="date">Date:</label>
+            <input type="date"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="Email"><br><br>
+            <label for="address">Address:</label>
+            <textarea name="address" ></textarea><br><br>
+           <button onclick="alert('form submitted')">Submit</button>
+        </form>
+    </div> 
+</body>
+</html>
